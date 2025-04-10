@@ -5,153 +5,117 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Yapay Zeka Projeleri</title>
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+    <style>
+        .carousel-item {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 300px;
+            background-color: #f8f9fa;
+            margin: 10px;
+            border-radius: 8px;
+            box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+        }
+        .carousel-item a {
+            text-decoration: none;
+            color: #007bff;
+        }
+    </style>
 </head>
 <body>
-    <div class="container">
-        <h1 class="text-center mt-5">Yapay Zeka Projeleri</h1>
-        <table class="table table-striped mt-4">
-            <thead>
-                <tr>
-                    <th>Proje Adı</th>
-                    <th>Açıklama</th>
-                    <th>Video Linki</th>
-                </tr>
-            </thead>
-            <tbody>
-                <tr>
-                    <td>Product Cohort Analysis</td>
-                    <td>Ürün grubu analizi ile müşteri segmentasyonu yapılır.</td>
-                    <td><a href="https://www.youtube.com/embed/0hrrh7t0O0w" target="_blank">İzle</a></td>
-                </tr>
-                <tr>
-                    <td>Lifetime Prediction</td>
-                    <td>Ürünlerin ömrünü tahmin eden model.</td>
-                    <td><a href="https://www.youtube.com/embed/aLeoxNXWKTc" target="_blank">İzle</a></td>
-                </tr>
-                <tr>
-                    <td>Human Resource Churn Prediction</td>
-                    <td>Çalışan devinimini tahmin etme modeli.</td>
-                    <td><a href="https://www.youtube.com/embed/FIr2Iy7vF8w" target="_blank">İzle</a></td>
-                </tr>
-                <tr>
-                    <td>Sales Prediction</td>
-                    <td>Satış tahminlemesi yapan model.</td>
-                    <td><a href="https://www.youtube.com/embed/RhPRMBdRIUI" target="_blank">İzle</a></td>
-                </tr>
-                <tr>
-                    <td>Customer or Production RFM Segmentation</td>
-                    <td>Müşteri ya da üretim segmentasyonu.</td>
-                    <td><a href="https://www.youtube.com/embed/fJbjGJNLrbc" target="_blank">İzle</a></td>
-                </tr>
-                <tr>
-                    <td>Paint Sales Predictions</td>
-                    <td>Boya satışlarını tahmin etme modeli.</td>
-                    <td><a href="https://www.youtube.com/embed/A1AjcuWt1Dk" target="_blank">İzle</a></td>
-                </tr>
-                <tr>
-                    <td>Poligraph Tahminlenmesi</td>
-                    <td>Poligraf tahmini üzerine bir model.</td>
-                    <td><a href="https://www.youtube.com/embed/9bi9eDZUJPQ" target="_blank">İzle</a></td>
-                </tr>
-                <tr>
-                    <td>Yüzlerin, Yaş, Cinsiyet, Ruh Hali Analiz Servisi</td>
-                    <td>Yüz analizleriyle yaş, cinsiyet ve ruh hali tahmini.</td>
-                    <td><a href="https://www.youtube.com/embed/9bi9eDZUJPQ" target="_blank">İzle</a></td>
-                </tr>
-                <tr>
-                    <td>E-Commerce Recommendation</td>
-                    <td>E-ticaret öneri sistemi.</td>
-                    <td><a href="https://www.youtube.com/embed/lGIh3jkKUy4" target="_blank">İzle</a></td>
-                </tr>
-                <tr>
-                    <td>Economic Order Quantity</td>
-                    <td>Ekonomik sipariş miktarı tahmini.</td>
-                    <td><a href="https://www.youtube.com/embed/9bi9eDZUJPQ" target="_blank">İzle</a></td>
-                </tr>
-                <tr>
-                    <td>Minimum Cost Transportation</td>
-                    <td>Minumum maliyetli ulaşım modellemesi.</td>
-                    <td><a href="https://www.youtube.com/embed/9eFt_qGPLwE" target="_blank">İzle</a></td>
-                </tr>
-                <tr>
-                    <td>Employee Minimum Cost Calculation</td>
-                    <td>Çalışan minimum maliyet hesaplama.</td>
-                    <td><a href="https://www.youtube.com/embed/0UgVbIaADRE" target="_blank">İzle</a></td>
-                </tr>
-                <tr>
-                    <td>E-Commerce Sales Prediction</td>
-                    <td>E-ticaret satış tahmini modellemesi.</td>
-                    <td><a href="https://www.youtube.com/embed/F24GNLK4_XE" target="_blank">İzle</a></td>
-                </tr>
-                <tr>
-                    <td>Travelling Salesman Problem in Quantum Computer</td>
-                    <td>Quantum bilgisayar ile seyahat eden satıcı probleminin çözümü.</td>
-                    <td><a href="https://www.youtube.com/embed/9Sqo4Izv_rE" target="_blank">İzle</a></td>
-                </tr>
-                <tr>
-                    <td>Vehicle Route Planning</td>
-                    <td>Araç rota planlaması üzerine bir model.</td>
-                    <td><a href="https://www.youtube.com/embed/T5nqrWi0-U8" target="_blank">İzle</a></td>
-                </tr>
-                <tr>
-                    <td>Yüz Konum, Ruh Hali Analizlerini Servisi</td>
-                    <td>Yüz konumu ve ruh hali analiz servisi.</td>
-                    <td><a href="https://www.youtube.com/embed/IV4sTu_eKIE" target="_blank">İzle</a></td>
-                </tr>
-                <tr>
-                    <td>Quantum Random Number Generator</td>
-                    <td>Kuantsal rastgele sayı üretici model.</td>
-                    <td><a href="https://www.youtube.com/embed/6HebIhWh86I" target="_blank">İzle</a></td>
-                </tr>
-                <tr>
-                    <td>Quantum Classification Algorithms (QSVC, VQC, CircuitQNN)</td>
-                    <td>Kuantsal sınıflandırma algoritmalarını içerir.</td>
-                    <td><a href="https://www.youtube.com/embed/SxsLLWurNV4" target="_blank">İzle</a></td>
-                </tr>
-                <tr>
-                    <td>Quantum Regression Algorithms (QNN, VQR)</td>
-                    <td>Kuantsal regresyon algoritmaları içeren model.</td>
-                    <td><a href="https://www.youtube.com/embed/SxsLLWurNV4" target="_blank">İzle</a></td>
-                </tr>
-                <tr>
-                    <td>Tedarik Zinciri Yönetimi Mevcut Durum Analizi</td>
-                    <td>Üretim süreçlerinin analizini ve iyileştirme önerilerini içerir.</td>
-                    <td><a href="https://www.youtube.com/embed/RmtzqiEMp3I" target="_blank">İzle</a></td>
-                </tr>
-                <tr>
-                    <td>Vehicle Route Planning with Capacity</td>
-                    <td>Kapasiteli araç rota planlaması modeli.</td>
-                    <td><a href="https://www.youtube.com/embed/9aHJc8r2UFo" target="_blank">İzle</a></td>
-                </tr>
-                <tr>
-                    <td>Portfolio Analysis in Quantum Portfolio Algorithm</td>
-                    <td>Kuantsal portföy analizi algoritması.</td>
-                    <td><a href="https://www.youtube.com/embed/xV0_cHnvE6I" target="_blank">İzle</a></td>
-                </tr>
-                <tr>
-                    <td>The Analytic Hierarchy Process</td>
-                    <td>Analitik hiyerarşi süreci modellemesi.</td>
-                    <td><a href="https://www.youtube.com/embed/nix8_2nSH3o" target="_blank">İzle</a></td>
-                </tr>
-                <tr>
-                    <td>Portfolio Analysis in Classical Portfolio Algorithm</td>
-                    <td>Klasik portföy analizi algoritması.</td>
-                    <td><a href="https://www.youtube.com/embed/yNKoZmdfITU" target="_blank">İzle</a></td>
-                </tr>
-                <tr>
-                    <td>Cimento Sektörü İçin Hammade ve Yakıt Optimizasyonu</td>
-                    <td>Cimento sektörü için hammade ve yakıt optimizasyonu modellemesi.</td>
-                    <td><a href="https://www.youtube.com/embed/ZhqyzVrV1c4" target="_blank">İzle</a></td>
-                </tr>
-                <tr>
-                    <td>Forecasting with Arima Model</td>
-                    <td>ARIMA modeli ile zaman serisi tahmini.</td>
-                    <td><a href="https://www.youtube.com/embed/ghk2XFlzmOk" target="_blank">İzle</a></td>
-                </tr>
-            </tbody>
-        </table>
+    <div class="container mt-5">
+        <h1 class="text-center">Yapay Zeka Projeleri</h1>
 
-        <div class="mt-4">
+        <!-- Kayan Kartlar için Carousel -->
+        <div id="projectCarousel" class="carousel slide" data-ride="carousel">
+            <div class="carousel-inner">
+                <!-- Yapay Zeka Projeleri -->
+                <div class="carousel-item active">
+                    <div class="card mx-2" style="width: 18rem;">
+                        <div class="card-body">
+                            <h5 class="card-title">Product Cohort Analysis</h5>
+                            <p class="card-text">Ürün grubu analizi ile müşteri segmentasyonu yapılır.</p>
+                            <a href="https://www.youtube.com/embed/0hrrh7t0O0w" class="btn btn-primary" target="_blank">İzle</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="carousel-item">
+                    <div class="card mx-2" style="width: 18rem;">
+                        <div class="card-body">
+                            <h5 class="card-title">Lifetime Prediction</h5>
+                            <p class="card-text">Ürünlerin ömrünü tahmin eden model.</p>
+                            <a href="https://www.youtube.com/embed/aLeoxNXWKTc" class="btn btn-primary" target="_blank">İzle</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="carousel-item">
+                    <div class="card mx-2" style="width: 18rem;">
+                        <div class="card-body">
+                            <h5 class="card-title">Human Resource Churn Prediction</h5>
+                            <p class="card-text">Çalışan devinimini tahmin etme modeli.</p>
+                            <a href="https://www.youtube.com/embed/FIr2Iy7vF8w" class="btn btn-primary" target="_blank">İzle</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="carousel-item">
+                    <div class="card mx-2" style="width: 18rem;">
+                        <div class="card-body">
+                            <h5 class="card-title">Sales Prediction</h5>
+                            <p class="card-text">Satış tahminlemesi yapan model.</p>
+                            <a href="https://www.youtube.com/embed/RhPRMBdRIUI" class="btn btn-primary" target="_blank">İzle</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="carousel-item">
+                    <div class="card mx-2" style="width: 18rem;">
+                        <div class="card-body">
+                            <h5 class="card-title">Customer or Production RFM Segmentation</h5>
+                            <p class="card-text">Müşteri ya da üretim segmentasyonu.</p>
+                            <a href="https://www.youtube.com/embed/fJbjGJNLrbc" class="btn btn-primary" target="_blank">İzle</a>
+                        </div>
+                    </div>
+                </div>
+                <!-- CRM, IoT, ISG Projeleri -->
+                <div class="carousel-item">
+                    <div class="card mx-2" style="width: 18rem;">
+                        <div class="card-body">
+                            <h5 class="card-title">CRM</h5>
+                            <p class="card-text">Müşteri ilişkileri yönetimi için yapay zeka destekli çözümler.</p>
+                            <a href="https://www.youtube.com/embed/lGIh3jkKUy4" class="btn btn-primary" target="_blank">İzle</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="carousel-item">
+                    <div class="card mx-2" style="width: 18rem;">
+                        <div class="card-body">
+                            <h5 class="card-title">IoT</h5>
+                            <p class="card-text">Nesnelerin interneti ile veri analizi ve optimizasyon çözümleri.</p>
+                            <a href="https://www.youtube.com/embed/9bi9eDZUJPQ" class="btn btn-primary" target="_blank">İzle</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="carousel-item">
+                    <div class="card mx-2" style="width: 18rem;">
+                        <div class="card-body">
+                            <h5 class="card-title">ISG</h5>
+                            <p class="card-text">İş Sağlığı ve Güvenliği süreçlerini dijitalleştiren projeler.</p>
+                            <a href="https://www.youtube.com/embed/9bi9eDZUJPQ" class="btn btn-primary" target="_blank">İzle</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <a class="carousel-control-prev" href="#projectCarousel" role="button" data-slide="prev">
+                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                <span class="sr-only">Önceki</span>
+            </a>
+            <a class="carousel-control-next" href="#projectCarousel" role="button" data-slide="next">
+                <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                <span class="sr-only">Sonraki</span>
+            </a>
+        </div>
+
+        <!-- İletişim ve Alt Erişim -->
+        <div class="mt-5">
             <h4>İletişim ve Alt Erişim</h4>
             <p>Telefon: <a href="tel:+905308328186">+90 530 832 81 86</a></p>
             <p>Adres: <a href="https://www.google.com/maps?q=Bilişim+Vadisi,+Gebze,+Kocaeli" target="_blank">Bilişim Vadisi, Gebze, Kocaeli</a></p>
@@ -163,3 +127,4 @@
     <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
 </body>
 </html>
+``
