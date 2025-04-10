@@ -1,133 +1,166 @@
 <!DOCTYPE html>
 <html lang="tr">
 <head>
-  <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>Datafirst Bilişim Hizmetleri</title>
-  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" />
-  <style>
-    body { font-family: Arial, sans-serif; }
-    .hero { background-color: #f8f9fa; padding: 60px 0; text-align: center; }
-    .service-box { border: 1px solid #dee2e6; padding: 20px; border-radius: 12px; background-color: #fff; transition: 0.3s; }
-    .service-box:hover { box-shadow: 0 4px 12px rgba(0,0,0,0.1); }
-    footer { background-color: #212529; color: white; padding: 20px 0; text-align: center; }
-    .navbar-brand img { height: 40px; }
-    .client-logo { height: 100px; object-fit: contain; padding: 10px; }
-  </style>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>DataFirst Bilişim Hizmetleri</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f4f4f4;
+        }
+
+        header {
+            background-color: #003366;
+            color: white;
+            padding: 20px;
+            text-align: center;
+        }
+
+        .section {
+            margin: 20px;
+        }
+
+        .carousel {
+            display: flex;
+            overflow-x: auto;
+            gap: 10px;
+            margin-bottom: 20px;
+        }
+
+        .carousel video {
+            width: 300px;
+            height: 200px;
+            object-fit: cover;
+            border-radius: 8px;
+        }
+
+        .project-description {
+            background-color: #ffffff;
+            padding: 20px;
+            border-radius: 8px;
+            box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+        }
+
+        .project-description h3 {
+            color: #003366;
+        }
+
+        .project-description p {
+            color: #555;
+        }
+
+        .client-logos {
+            display: flex;
+            overflow-x: auto;
+            gap: 20px;
+            margin-top: 40px;
+            padding: 20px;
+            background-color: #003366;
+        }
+
+        .client-logos img {
+            width: 100px;
+            height: 100px;
+            object-fit: cover;
+            border-radius: 8px;
+        }
+
+        footer {
+            background-color: #003366;
+            color: white;
+            text-align: center;
+            padding: 10px;
+            margin-top: 40px;
+        }
+    </style>
 </head>
 <body>
 
-  <!-- Navbar -->
-  <nav class="navbar navbar-expand-lg navbar-light bg-light shadow-sm">
-    <div class="container">
-      <a class="navbar-brand" href="#">
-        <img src="https://datafirst.store/Content/site/assets/logo-yaz%c4%b1-beyaz.png" alt="Datafirst Logo" />
-      </a>
-      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
-        <span class="navbar-toggler-icon"></span>
-      </button>
-    </div>
-  </nav>
+    <header>
+        <h1>DataFirst Bilişim Hizmetleri</h1>
+        <p>Yapay Zeka, IoT ve CRM Çözümleri</p>
+    </header>
 
-  <!-- Hero -->
-  <section class="hero">
-    <div class="container">
-      <h1 class="display-5">Müşteriye Özel Yazılım Çözümleri</h1>
-      <p class="lead">İş Sağlığı ve Güvenliği, Yapay Zeka, CRM, IoT ve Chatbot Projeleri</p>
+    <!-- Yapay Zeka Projeleri -->
+    <div class="section">
+        <h2>Yapay Zeka Projeleri</h2>
+        <div class="carousel">
+            <video controls>
+                <source src="https://www.example.com/video1.mp4" type="video/mp4">
+                Tarayıcınız video etiketini desteklemiyor.
+            </video>
+            <video controls>
+                <source src="https://www.example.com/video2.mp4" type="video/mp4">
+                Tarayıcınız video etiketini desteklemiyor.
+            </video>
+        </div>
+        <div class="project-description">
+            <h3>Yapay Zeka Projesi Açıklaması</h3>
+            <p>Bu projede, yapay zeka kullanarak iş süreçlerini otomatikleştiriyoruz...</p>
+        </div>
     </div>
-  </section>
 
-  <!-- Hizmetler -->
-  <section class="py-5">
-    <div class="container">
-      <div class="row text-center mb-4">
-        <h2>Hizmetlerimiz</h2>
-      </div>
-      <div class="row g-4">
-        <div class="col-md-4">
-          <div class="service-box h-100">
-            <h5>İş Sağlığı ve Güvenliği</h5>
-            <iframe width="100%" height="200" src="https://www.youtube.com/embed/dQw4w9WgXcQ" frameborder="0" allowfullscreen></iframe>
-          </div>
+    <!-- Entellektürel Bilgi Havuzu Projesi -->
+    <div class="section">
+        <h2>Entellektürel Bilgi Havuzu Projesi</h2>
+        <div class="carousel">
+            <video controls>
+                <source src="https://www.example.com/video3.mp4" type="video/mp4">
+                Tarayıcınız video etiketini desteklemiyor.
+            </video>
+            <video controls>
+                <source src="https://www.example.com/video4.mp4" type="video/mp4">
+                Tarayıcınız video etiketini desteklemiyor.
+            </video>
         </div>
-        <div class="col-md-4">
-          <div class="service-box h-100">
-            <h5>Yapay Zeka Çözümleri</h5>
-            <iframe width="100%" height="200" src="https://www.youtube.com/embed/IiR-bnCHI74" frameborder="0" allowfullscreen></iframe>
-          </div>
+        <div class="project-description">
+            <h3>Bilgi Havuzu Projesi Açıklaması</h3>
+            <p>Bilgilerinizi güvenli bir şekilde depolayın ve kolayca erişin...</p>
         </div>
-        <div class="col-md-4">
-          <div class="service-box h-100">
-            <h5>CRM Projeleri</h5>
-            <iframe width="100%" height="200" src="https://www.youtube.com/embed/oHg5SJYRHA0" frameborder="0" allowfullscreen></iframe>
-          </div>
-        </div>
-        <div class="col-md-6">
-          <div class="service-box h-100">
-            <h5>IoT Uygulamaları</h5>
-            <iframe width="100%" height="200" src="https://www.youtube.com/embed/vbttZVTSJRU" frameborder="0" allowfullscreen></iframe>
-          </div>
-        </div>
-        <div class="col-md-6">
-          <div class="service-box h-100">
-            <h5>Chatbot Projeleri</h5>
-            <iframe width="100%" height="200" src="https://www.youtube.com/embed/1Bix44C1EzY" frameborder="0" allowfullscreen></iframe>
-          </div>
-        </div>
-      </div>
     </div>
-  </section>
 
-  <!-- Müşteriler -->
-  <section class="py-5 bg-light">
-    <div class="container text-center">
-      <h2 class="mb-4">Müşterilerimiz</h2>
-      <div id="clientCarousel" class="carousel slide" data-bs-ride="carousel">
-        <div class="carousel-inner">
-          <div class="carousel-item active">
-            <img src="https://via.placeholder.com/200x100?text=Müşteri+1" class="client-logo d-block mx-auto" alt="Müşteri 1">
-          </div>
-          <div class="carousel-item">
-            <img src="https://via.placeholder.com/200x100?text=Müşteri+2" class="client-logo d-block mx-auto" alt="Müşteri 2">
-          </div>
-          <div class="carousel-item">
-            <img src="https://via.placeholder.com/200x100?text=Müşteri+3" class="client-logo d-block mx-auto" alt="Müşteri 3">
-          </div>
+    <!-- CRM Projesi -->
+    <div class="section">
+        <h2>CRM Projesi</h2>
+        <div class="project-description">
+            <h3>CRM Projesi Açıklaması ve Değer Önerisi</h3>
+            <p>CRM çözümümüz, müşteri ilişkilerinizi daha verimli yönetmenize olanak sağlar...</p>
         </div>
-        <button class="carousel-control-prev" type="button" data-bs-target="#clientCarousel" data-bs-slide="prev">
-          <span class="carousel-control-prev-icon"></span>
-        </button>
-        <button class="carousel-control-next" type="button" data-bs-target="#clientCarousel" data-bs-slide="next">
-          <span class="carousel-control-next-icon"></span>
-        </button>
-      </div>
     </div>
-  </section>
 
-  <!-- İletişim -->
-  <section class="py-5 bg-light">
-    <div class="container">
-      <div class="row text-center mb-4">
-        <h2>İletişim</h2>
-      </div>
-      <div class="row justify-content-center">
-        <div class="col-md-6">
-          <p><strong>Şirket Adı:</strong> Datafirst Bilişim Hizmetleri Ltd. Şti</p>
-          <p><strong>Email:</strong> info@datafirst.store</p>
-          <p><strong>Telefon:</strong> +90 530 832 81 86</p>
-          <p><strong>Adres:</strong> İstanbul, Türkiye</p>
+    <!-- IoT Projesi -->
+    <div class="section">
+        <h2>IoT Projesi</h2>
+        <div class="project-description">
+            <h3>IoT Projesi Açıklaması ve Değer Önerisi</h3>
+            <p>IoT tabanlı çözümlerimizle işletmenizin süreçlerini daha verimli hale getirin...</p>
         </div>
-      </div>
     </div>
-  </section>
 
-  <!-- Footer -->
-  <footer>
-    <div class="container">
-      <p>© 2025 Datafirst Bilişim Hizmetleri Ltd. Şti. | Tüm Hakları Saklıdır</p>
+    <!-- İş Sağlığı ve Güvenliği Projesi -->
+    <div class="section">
+        <h2>İş Sağlığı ve Güvenliği Projesi</h2>
+        <div class="project-description">
+            <h3>İş Sağlığı ve Güvenliği Projesi Açıklaması ve Değer Önerisi</h3>
+            <p>İş sağlığı ve güvenliği projelerimizle çalışanlarınızın sağlığını ve güvenliğini en üst seviyeye çıkarıyoruz. Verimli yönetim araçları ve anlık raporlama çözümleri sunuyoruz.</p>
+        </div>
     </div>
-  </footer>
 
-  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
+    <!-- Müşteri Logoları ve Web Siteleri -->
+    <div class="client-logos">
+        <img src="https://via.placeholder.com/100" alt="Müşteri 1">
+        <img src="https://via.placeholder.com/100" alt="Müşteri 2">
+        <img src="https://via.placeholder.com/100" alt="Müşteri 3">
+        <img src="https://via.placeholder.com/100" alt="Müşteri 4">
+        <img src="https://via.placeholder.com/100" alt="Müşteri 5">
+    </div>
+
+    <footer>
+        <p>&copy; 2025 DataFirst Bilişim Hizmetleri</p>
+    </footer>
+
 </body>
 </html>
